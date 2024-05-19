@@ -1,0 +1,101 @@
+{
+  "ycdata": [
+    {
+      "id": 1,
+      "Name": "json-server",
+      "City": "typicode",
+      "Pin": "24567",
+      "Phone": "839809"
+    },
+    {
+      "Height": "70",
+      "Chess": "36",
+      "Shoulder": "9",
+      "Hand": "35",
+      "Bicep": "14",
+      "Cup": "7",
+      "id": 2
+    },
+    {
+      "Height": "77",
+      "Chess": "35",
+      "Shoulder": "9.5",
+      "Hand": "34",
+      "Bicep": "13",
+      "Cup": "6",
+      "id": 3
+    },
+    {
+      "Height": "70",
+      "Waist": "77",
+      "Sheet": "57",
+      "Thigh": "40",
+      "Ankel": "15",
+      "id": 4
+    },
+    {
+      "Height": "12",
+      "Chess": "13",
+      "Shoulder": "14",
+      "Hand": "11",
+      "Bicep": "16",
+      "Cup": "17",
+      "id": 5
+    },
+    {
+      "Height": "21",
+      "Waist": "22",
+      "Sheet": "23",
+      "Thigh": "24",
+      "Ankel": "25",
+      "id": 6
+    },
+    {
+      "Height": "1",
+      "Chess": "2",
+      "Shoulder": "3",
+      "Hand": "4",
+      "Bicep": "5",
+      "Cup": "6",
+      "id": 7
+    },
+    {
+      "Height": "",
+      "Waist": "",
+      "Sheet": "",
+      "Thigh": "",
+      "Ankel": "",
+      "id": 8
+    },
+    {
+      "Name": "Rushikesh Yuvraj Chavan",
+      "Mobile": 8482953738,
+      "Address": "Kodoli Tal.panhala Dist.Kolhpur",
+      "id": 9
+    },
+    {
+      "Name": "abc",
+      "Mobile": 8778387378,
+      "Address": "Kodoli Tal.panhala Dist.Kolhpur",
+      "id": 10
+    },
+    {
+      "Name": "pol",
+      "Mobile": 9188266677,
+      "Address": "abcdefg",
+      "id": 11
+    },
+    {
+      "Name": "08482953738",
+      "Mobile": "",
+      "Address": "Kodoli Tal.panhala Dist.Kolhpur",
+      "id": 12
+    },
+    {
+      "Name": "xcvbnm,",
+      "Mobile": 2345678909876,
+      "Address": "kodoli Tal-panhala Dist-kolhapur",
+      "id": 13
+    }
+  ]
+}

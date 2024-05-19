@@ -1,0 +1,179 @@
+<section class="s1 mt-5">
+  <div class="container-xxl bg">
+    <div class="col">
+      <div class="row m-0 pt-4 p-2">
+        <img src="../assets/images/machine.jpg" class="rounded float-end img-fluid mt-2" alt="...">
+        <h1 class="mtxt mt-4">MENS TAILORING</h1>
+        <h1 class="mtxt">WITH THE PERFECT FIT</h1>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="btn btn-outline-secondary hbtn mt-5">Secondary</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s2 colbg p-2 mt-4">
+  <div class="container">
+    <div class="col">
+      <div class="row m-0">
+        <div class="col">
+          <h1 class="st">Images</h1>
+
+          <div class="row  m-0">
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+              <div ngxSlickItem *ngFor="let image of images">
+                <img width="250px" height="300px" [src]="image?.img" class="img-fluid me-auto ms-auto w-75">
+              </div>
+            </ngx-slick-carousel>
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="s3 p-3 mt-5">
+  <div class="container">
+    <div>
+      <h1 class="s2h pt-5">Branded Clothes With Less Price</h1>
+    </div>
+    <div class="col-lg col-xl col-xxl">
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-0 ">
+        <div class="col col-lg-0">
+          <div class="card">
+            <img class="img-fluid ms-auto me-auto pt-2" width="200px" height="220px" src="../assets/images/pse12.jpg"
+              alt="">
+            <div class="card-body">
+              <h5 class="card-title">Shirt</h5>
+              <p class="card-text"> Without Material - 350 rs <br> With Material - 550 rs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img-fluid ms-auto me-auto pt-2" width="200px" height="220px" src="../assets/images/pant1.jpg"
+              alt="">
+            <div class="card-body">
+              <h5 class="card-title">Pant</h5>
+              <p class="card-text">Without Material - 350 rs <br> With Material - 550 rs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img-fluid ms-auto me-auto pt-2" width="200px" height="220px"
+              src="../assets/images/pantshirt1.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Shirt Pant</h5>
+              <p class="card-text">Without Material - 650 rs <br> With Material - 1050</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row justify-content-center ">
+        <div class="col">
+          <div class="card crd2 mt-5">
+            <img class="img-fluid ms-auto me-auto pt-2" width="200px" height="220px" src="../assets/images/safari1.jpg"
+              alt="">
+            <div class="card-body">
+              <h5 class="card-title">Safari</h5>
+              <p class="card-text">Without Material - 500 rs <br> With Material - 900 rs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card crd2 mt-5">
+            <img class="img-fluid ms-auto me-auto pt-2" width="200px" height="220px" src="../assets/images/kurta1.jpg"
+              alt="">
+            <div class="card-body">
+              <h5 class="card-title">Kurta</h5>
+              <p class="card-text">Without Material - 200 rs <br> With Material - 400 rs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="s4 mt-5">
+  <div class="container">
+    <div>
+      <h1 class="s4txt pt-5">Aboust Us</h1>
+    </div>
+    <div class="col">
+      <div class="row mt-5 justify-content-between">
+        <div class="col col-lg-5 pt-lg-3 mt-lg-3">
+          <img class="img-fluid me-4 me-auto s4img " src="../assets/images/about.jpg" alt="">
+        </div>
+        <div class="col col-lg-5">
+          <div class="row  m-3 pt-lg-0 pt-3">
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="verticalslide">
+              <div ngxSlickItem *ngFor="let text of texts" class="paratext h-25 h-lg-auto">
+
+                {{text}}
+
+              </div>
+
+            </ngx-slick-carousel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s5 mt-5">
+  <div class="container">
+    <div>
+      <h1 class="s5htxt pt-5">What Our Customer Says</h1>
+    </div>
+
+    <div class="row m-0">
+
+      <img class="img-fluid s5img " src="../assets/images/customer.jpg" alt="">
+
+    </div>
+    <div class="col">
+      <div class="row m-3">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="section4slide">
+          <div ngxSlickItem *ngFor="let sec of secfour" class="slidetxts5 p-5 p-lg-5">
+            {{sec}}
+          </div>
+        </ngx-slick-carousel>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section>
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <h5 class="fhed">Contact Us</h5>
+          <p class="fpara">Name - Yuvraj Tailor <br> Mobile - 8600946455 <br>
+             Pin - 416114 <br> Address - Kodoli ta : Panhala Dist : Kolhapur State : Maharashtra</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "e6T9m64KggeUVaBYHSXV15Hp/+OIQvKbTUHQSlkKc9EDo96A7C2s1R5o45sNEgUA2rQ4FUh64vJhAfgMX6c40Q==",
+  "success": true,
+  "projectFilePath": "C:\\TSS\\YC\\ycAPI\\ycAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rushi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\rushi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\rushi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\rushi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

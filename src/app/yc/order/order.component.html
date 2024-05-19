@@ -1,0 +1,167 @@
+<div class="container pt-3">
+    <div class="row justify-content-around">
+        <div class="col-lg-4 box p-3">
+
+            <div class="col">
+                <div class="form">
+                    <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+
+                        <div class="text-center">
+                            <button class="btn text btn-outline-info mt-3" (click)="postData()">Shirt</button>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="row">
+                                <div class="col-6 p-lg-4">
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label">Height उंची
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="70cm" formControlName="height" name="Height"
+                                            [(ngModel)]="DataFormHub.Height">
+                                        <span style="color: red;"
+                                            *ngIf="height && height.invalid && height.touched">Field
+                                            must
+                                            required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Chess छाती
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="36cm" formControlName="chess" name="Chess"
+                                            [(ngModel)]="DataFormHub.Chess">
+                                        <span style="color: red;" *ngIf="chess && chess.invalid && chess.touched">Field
+                                            mjust
+                                            required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Shoulder खांदा
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="9cm" formControlName="shoulder" name="Shoulder"
+                                            [(ngModel)]="DataFormHub.Shoulder">
+                                        <span style="color: red;"
+                                            *ngIf="shoulder && shoulder.invalid && shoulder.touched">Field
+                                            must required</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 p-lg-4">
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label">Hand हात
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="35cm" formControlName="hand" name="Hand"
+                                            [(ngModel)]="DataFormHub.Hand">
+                                        <span style="color: red;" *ngIf="hand && hand.invalid && hand.touched">Field
+                                            must
+                                            required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Bicep दंड
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="14cm" formControlName="bicep" name="Bicep"
+                                            [(ngModel)]="DataFormHub.Bicep">
+                                        <span style="color:red" *ngIf="bicep && bicep.invalid && bicep.touched">Field
+                                            must
+                                            required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Cup मनगट</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="7cm" formControlName="cup" name="=Cup"
+                                            [(ngModel)]="DataFormHub.Cup">
+                                        <span style="color:red" *ngIf="cup && cup.invalid && cup.touched">Field must
+                                            required</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 box p-3 m-lg-0 m-4 ">
+            <div class="col">
+                <div class="form">
+                    <form [formGroup]="loginformp">
+                        <div class="text-center">
+                        <button type="button" class="btn text btn-outline-info mt-3" (click)="pPostData()">Pant</button>
+                        </div>
+                        <div class="col pt-3">
+                            <div class="row">
+                                <div class="col-6 p-lg-4">
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label">Height उंची
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="70cm" formControlName="height" name="Height"
+                                            [(ngModel)]="PDataFormHub.Height">
+                                        <span style="color:red" *ngIf="Height && Height.invalid && Height.touched">Field
+                                            must
+                                            Required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Waist कंबर
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="40cm" formControlName="waist" name="Waist"
+                                            [(ngModel)]="PDataFormHub.Waist">
+                                        <span style="color: red;" *ngIf="waist && waist.invalid && waist.touched">Field
+                                            must
+                                            Required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Sheet शीट
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="30cm" formControlName="sheet" name="Sheet"
+                                            [(ngModel)]="PDataFormHub.Sheet">
+                                        <span style="color:red" *ngIf="sheet && sheet.invalid && sheet.touched">Field
+                                            must
+                                            Required</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 p-lg-4">
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label">Thigh मांडी
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="22cm" formControlName="thigh" name="Thigh"
+                                            [(ngModel)]="PDataFormHub.Thigh">
+                                        <span style="color:red" *ngIf="thigh && thigh.invalid && thigh.touched">Field
+                                            must
+                                            Required</span>
+                                    </div>
+
+                                    <div>
+                                        <label for="exampleFormControlInput1" class="form-label pt-2">Ankel घोटा
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="7cm" formControlName="ankel" name="Ankel"
+                                            [(ngModel)]="PDataFormHub.Ankel">
+                                        <span style="color:red" *ngIf="ankel && ankel.invalid && ankel.touched">Field
+                                            must
+                                            Required</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+    <button type="button" class="btn btn-primary text mt-4" (click)="postData()" (click)="pPostData()">Shirt Paint</button>
+</div>
+</div>

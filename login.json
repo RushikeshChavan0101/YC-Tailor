@@ -1,0 +1,108 @@
+{
+  "logindata": [
+    {
+      "id": 1,
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": ""
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "fname": "Rushikesh",
+      "lname": "Chavan",
+      "Email": "",
+      "phone": "+918482953738",
+      "password": "rushichavancr7",
+      "id": 3
+    },
+    {
+      "fname": "yuvraj",
+      "lname": "chavan",
+      "Email": "",
+      "phone": "8600946455",
+      "password": "yc6455",
+      "id": 4
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "fname": "ab",
+      "lname": "cd",
+      "Email": "",
+      "phone": "8756373938",
+      "password": "ab1234",
+      "id": 7
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "rushichavancr7",
+      "id": 8
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "rushichavancr7",
+      "id": 9
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "Email": "",
+      "phone": "",
+      "password": "yc6455",
+      "id": 10
+    },
+    {
+      "fname": "hrishi",
+      "lname": "chavan",
+      "Email": "",
+      "phone": "7028223738",
+      "password": "HC3738",
+      "id": 11
+    },
+    {
+      "fname": "karan",
+      "lname": "chavan",
+      "Email": "",
+      "phone": "98776893987",
+      "password": "kc9800",
+      "id": 12
+    },
+    {
+      "fname": "divya",
+      "lname": "chavan",
+      "Email": "",
+      "phone": "7788363777",
+      "password": "dc7777",
+      "id": 13
+    }
+  ]
+}

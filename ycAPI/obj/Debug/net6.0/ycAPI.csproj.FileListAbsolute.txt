@@ -1,0 +1,15 @@
+C:\TSS\YC\ycAPI\bin\Debug\net6.0\ycAPI.exe
+C:\TSS\YC\ycAPI\bin\Debug\net6.0\ycAPI.deps.json
+C:\TSS\YC\ycAPI\bin\Debug\net6.0\ycAPI.runtimeconfig.json
+C:\TSS\YC\ycAPI\bin\Debug\net6.0\ycAPI.dll
+C:\TSS\YC\ycAPI\bin\Debug\net6.0\ycAPI.pdb
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.csproj.AssemblyReference.cache
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.AssemblyInfoInputs.cache
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.AssemblyInfo.cs
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.csproj.CoreCompileInputs.cache
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.dll
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\refint\ycAPI.dll
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.pdb
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ycAPI.genruntimeconfig.cache
+C:\TSS\YC\ycAPI\obj\Debug\net6.0\ref\ycAPI.dll

@@ -1,0 +1,34 @@
+<div class="container">
+	<form [formGroup]="signup" (ngSubmit)="registerUser()" class="form-box p-3 mt-2 ">
+		<h3>Signup</h3>
+		<div class="form-group">
+			<label>First Name</label>
+			<input type="text" formControlName="fname" class="form-control mb-3 mt-3" placeholder="Name"
+            name="fname" [(ngModel)]="sDataFormHub.fname"   >
+		</div>
+		<div class="form-group">
+			<label>Last Name</label>
+			<input type="text" formControlName="lname" class="form-control mb-3 mt-3" placeholder="Last Name"
+            name="lname" [(ngModel)]="sDataFormHub.lname">
+		</div>
+        <div class="form-group">
+			<label>Email</label>
+			<input type="email" formControlName="Email" class="form-control mb-3 mt-3" placeholder="Email"
+            name="Email" [(ngModel)]="sDataFormHub.Email">
+		</div>
+        <div class="form-group">
+			<label>Phone</label>
+			<input type="text" formControlName="phone" class="form-control mb-3 mt-3" placeholder="Phone"
+            name="phone" [(ngModel)]="sDataFormHub.phone">
+		</div>
+        <div class="form-group">
+			<label>Password</label>
+			<input type="password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Password"
+            name="password" [(ngModel)]="sDataFormHub.password">
+		</div>
+		<span>You have already account <a href="yc/login">Login</a></span>
+		<br>
+		<button type="button" class="btn btn-success" (click)="postData()">SignUp</button>
+	</form>
+</div>
+

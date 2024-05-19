@@ -1,0 +1,15 @@
+.form-label{
+    color:aliceblue;
+}
+
+.box{
+    
+    background-color: rgb(33, 76, 95);
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 253, 253, 0.19);
+    width: auto;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 42.333333%;
+}

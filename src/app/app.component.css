@@ -1,0 +1,23 @@
+.colbg{
+    background-color: #475577;
+    width: 100%;
+}
+
+.nav-link {
+    float: right;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav, .navbar{
+    color:aliceblue
+}
+.nav-link:focus{
+    background-color:#6175a7;
+    border-radius: 5px;
+}
